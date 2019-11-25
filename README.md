@@ -30,7 +30,7 @@ The goal of IPFS Lite is to run the bare minimal functionality for any applicati
 
 ### Why?
 
-Because 99% of the time, a browser or mobile (d)App only needs to be able to add and get small bits of data over the IPFS network. This library provides that, in a much smaller package (currently less than 1/2 the size of `js-ipfs` without much optimization -- we will continue to optimize further). It is also highly extensible, so developers need only include the features they _need_, keeping load times fast, and (d)Apps feeling snappy. Additionally, Textile needed a Typescript-based IPFS solution that supports async/await patterns throughout, and we think others will find the type safety useful as well. Feel free to use the [Typescript declarations](https://github.com/textileio/js-ipfs-lite/tree/master/src/@types) in your own projects.
+Browsers and mobile (d)Apps add and get small bits of data over the IPFS network at the most time. This library provides a much smaller package during transmission (currently less than 1/2 the size of `js-ipfs` without much optimization -- we will continue to optimize further). IPFS Lite is also highly extensible, so developers can only include the features they _need_ to keep short load time and snappy feeling on (d)Apps. Additionally, Textile needed a Typescript-based IPFS solution that supports async/await patterns throughout, and we think others will find the type safety useful as well. Feel free to use the [Typescript declarations](https://github.com/textileio/js-ipfs-lite/tree/master/src/@types) in your own projects.
 
 ### What?
 
